@@ -14,6 +14,8 @@
 header{
     padding-top: 50px;
     background-color: #FFF8F3;
+    background: url("hero-dev-portfolio-resources/images/developer.png"), url(hero-dev-portfolio-resources/portfolio.png);
+     background-repeat: no-repeat;
 }
 
 
@@ -62,34 +64,51 @@ nav .nav-item{
     color: white;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
-/* Intro Section Starts */
-.intro{
-    width: 71%;
-    max-width:1332px;
-    height: 676px;
+/* Banner Section Starts */
+#banner{
+    border: 1px solid red;
+    margin:47px 38px 0 230px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
-    margin: 0 auto;
+ 
 }
 
-.intro h4{
+#banner .banner-content{
+    max-width: 585px;
+}
+
+#banner .banner-content h2{
     color: #474747;
     font-size: 45px;
-    /* font-weight: bold; */
+    font-weight: 600;
+    margin-bottom: 5px;
+    
 }
-.intro h2{
+#banner .banner-content h1{
     font-size: 85px;
-    color: dark;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
-.intro p{
+#banner .banner-content p{
     font-size: 18px;
     line-height: 30px;
     color: #757575;
+    margin-bottom: 30px;
+    
 }
+
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+
+
+
 .about-me-container{
     background-color: #FFF8F3;
     width: 71%;
