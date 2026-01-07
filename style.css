@@ -155,8 +155,8 @@ nav .nav-item{
 /* What I Do  */
 
 .what-container{
-    background-color: #FFF8F3;
-    width: 71%;
+    /* background-color: #FFF8F3; */
+    /* width: 71%; */
     max-width: 1140px;
     height: 595px;
     margin: 24px auto;
@@ -192,33 +192,39 @@ nav .nav-item{
     width: 827px;
     }
 
-.cards{
+#cards{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
- 
 }
 
 .cards-info{
     width: 267px;
     height: 377px;
-    background-color:antiquewhite;
+    background-color:#ffffff;
     border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     
 
 }
 .cards-info img{
     margin:30px 30px ;
+    width: 44px;
+    height: 44px;
 }
-/* .cards-info h4, p{
+ .cards-info h4, .cards-info p{
     width: 204px;
     margin-left: 30px;
-    } */
-
-   /* .cards-info h4{
-    font-size: 20px;
     margin-bottom: 20px;
+    } 
+
+    .cards-info p{
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 16px;
+    width: 201px;
+    
    } */
 
     .cards-info p{
