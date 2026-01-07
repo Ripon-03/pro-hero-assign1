@@ -14,8 +14,9 @@
 header{
     padding-top: 50px;
     background-color: #FFF8F3;
-    background: url("hero-dev-portfolio-resources/images/developer.png"), url(hero-dev-portfolio-resources/portfolio.png);
-     background-repeat: no-repeat;
+    background: url("hero-dev-portfolio-resources/images/developer.png"), url(hero-dev-portfolio-resources/images/header_bg.png), #FFF8F3;
+     background-repeat: no-repeat , no-repeat;
+     background-position: 38px 23px , bottom right;
 }
 
 
@@ -69,11 +70,12 @@ nav .nav-item{
 
 /* Banner Section Starts */
 #banner{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin:47px 38px 0 230px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom:130px;
  
 }
 
@@ -108,65 +110,66 @@ nav .nav-item{
 }
 
 
-
+/* About Me Container */
 .about-me-container{
     background-color: #FFF8F3;
     width: 71%;
     max-width: 1140px;
     height: 550px;
-    border: 2px solid red;
     margin: 24px auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-
-
+    margin-bottom: 130px;
 }
+
 .about-me{
-    width: 71%;
     max-width: 827px;
-    height: 288px;
-    border: 2px solid red;
-    margin:0 auto;
-    
-  
+    margin:0 auto;  
 }
+
 .about-me-info{
     text-align: center;
 }
 .skills{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 30px;
 }
 .about-me-info h3{
+    font-size: 35px;
     margin-bottom: 30px;
+    font-weight: 700;
 
 }
 
 .about-me-info p{
    font-size: 18px;
    line-height: 30px;
+   margin-bottom: 30px;
+   color: #757575;
 
 }
+
+/* What I Do  */
 
 .what-container{
     background-color: #FFF8F3;
     width: 71%;
     max-width: 1140px;
-    height: 609px;
-    border: 2px solid red;
-    margin: 108px auto;
-    
-
+    height: 595px;
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 130px;
 }
+
 .what-do{
     width: 71%;
     max-width: 827px;
-    height: 90px;
-    border: 2px solid red;
     margin:0 auto;
     text-align: center;
     font-size: 18px;
@@ -174,40 +177,57 @@ nav .nav-item{
    margin-bottom: 30px;
    color: #474747;  
 }
+
 .what-do h3{
-    margin: 48px auto;
-    color: dark;
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 700;
 
 }
+
 .what-do p{
     line-height: 30px;
-}
+    font-size: 18px;
+    margin-bottom: 50px;
+    width: 827px;
+    }
 
 .cards{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 128px;
-    
-
-   
+    gap: 24px;
+ 
 }
+
 .cards-info{
     width: 267px;
     height: 377px;
-    background-color: red;
+    background-color:antiquewhite;
     border-radius: 5px;
+    
 
 }
 .cards-info img{
-    width: 44px;
-    height: 44px;
-    margin: 15px;
-    
+    margin:30px 30px ;
 }
-.cards-info h4{
-    margin-bottom: 15px;
-}
+/* .cards-info h4, p{
+    width: 204px;
+    margin-left: 30px;
+    } */
+
+   /* .cards-info h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+   } */
+
+    .cards-info p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    width: 201px;
+    color: #757575;
+   }
 
 /* resume */
 
