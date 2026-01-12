@@ -24,7 +24,7 @@ header{
 nav{
     width: 71%;
     max-width: 1140px;
-     display: flex;
+    display: flex;
     justify-content: space-between;
     /* border: 2px solid red; */
     align-items: center;
@@ -75,7 +75,7 @@ nav .nav-item{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:130px;
+    /* margin-bottom:130px; */
  
 }
 
@@ -113,42 +113,57 @@ nav .nav-item{
 /* About Me Container */
 .about-me-container{
     background-color: #FFF8F3;
-    width: 71%;
+    width: 100%;
     max-width: 1140px;
-    height: 550px;
-    margin: 24px auto;
+    /* height: 550px; */
+    padding: 130px 230px; 
+   
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin-bottom: 130px;
+    margin: 130px auto;
+    
 }
 
 .about-me{
+    width: 100%;
     max-width: 827px;
-    margin:0 auto;  
+    /* border: 1px solid salmon; */
+    /* padding: 131px 156px; */
+   
 }
 
 .about-me-info{
+    /* max-width: 827px; */
     text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    
+
 }
-.skills{
+.contact-info{
     display: flex;
-    justify-content: space-between;
-    margin: 30px;
+    justify-content: space-around;
+    /* margin: 30px; */
+    text-align: center;
+
 }
 .about-me-info h3{
     font-size: 35px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     font-weight: 700;
+
 
 }
 
 .about-me-info p{
    font-size: 18px;
    line-height: 30px;
-   margin-bottom: 30px;
+   /* margin-bottom: 30px; */
    color: #757575;
+   padding: 30px 20px;
 
 }
 
@@ -225,7 +240,7 @@ nav .nav-item{
     font-size: 16px;
     width: 201px;
     
-   } */
+   } 
 
     .cards-info p{
     font-size: 16px;
@@ -238,12 +253,13 @@ nav .nav-item{
 /* resume */
 
 .resume-container{
-    background-color: #FFF8F3;
-    width: 71%;
-    max-width: 1140px;
-    height: 988px;
-    border: 2px solid red;
+    /* background-color: #FFF8F3; */
+    width: 100%;
+    max-width: 1093px;
+    height: 991px;
+    /* border: 2px solid red; */
     margin: 108px auto;
+    
 }
 
 .resume{
@@ -251,29 +267,108 @@ nav .nav-item{
     justify-content: space-between;
     align-items: center;
     margin-top: 128px;
-    gap: 30px;
+    gap: 71px;
+    /* padding: 30px; */
     
 
    
 }
 
+.resume-info hr{
+    margin: 15px 0;
+    
+}
+.resume-info h2{
+    /* margin-top: 113px; */
+    margin-bottom: 30px;
 
-.foot-body{
+}
+.card-btn{
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 50px auto;
+    display: flex;
+    gap: 10px;    
+    }
+
+
+footer{
     width: 100%;
-    max-width: 1600px;
     height: 780px;
     background-color: #FFF8F3;
-    border: 1px solid red;
-    margin: 30px auto;
+    display: flex;
+   justify-content:center;
+    align-items: center;
+    /* border: 1px solid tomato; */
+    
 }
 
 
 .foot-container{
+    width: 100%;
+    max-width: 1140px;
+    height: 520px;
     display: flex;
-    justify-content:space-around;
-    align-items: center;
-    
+    justify-content:space-between;
+    /* align-items: center; */
+    /* border: 1px solid tomato;     */
 }
+
+.foot-info h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.foot-info p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 562px;
+    margin-top: 20px;
+
+}
+
+input{
+   padding:10px;
+   width: 461px;
+   height: 64px;
+   /* margin: 24px; */
+   border-radius: 8px;
+   border: none;
+   
+}
+
+textarea{
+    width: 461px;
+    padding: 10px;
+}
+input, textarea, .foot-info h2 , .foot-info p, .icon{
+    margin: 20px;
+}
+
 .icon{
     display: flex;
+     gap: 50px;
+     margin-top: 20px;
+     cursor: pointer;
 }
+
+.footer-btn{
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+    /* display: flex; */
+    /* gap: 10px;     */
+    }
